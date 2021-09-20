@@ -12,4 +12,8 @@ describe('Ticketbox', () => {
     cy.get('#requests').type('Front row seats only')
     cy.get('#signature').type(`${firstName} ${lastName}`)
   })
+
+  it('select two tickets', () => {
+    cy.get('#ticket-quantity').select("2")
+  })
 })
