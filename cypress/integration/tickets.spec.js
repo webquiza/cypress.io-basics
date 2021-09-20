@@ -16,4 +16,8 @@ describe('Ticketbox', () => {
   it('select two tickets', () => {
     cy.get('#ticket-quantity').select("2")
   })
+
+  it('selects the VIP ticket type', () => {
+    cy.get('#vip').check()
+  })
 })
