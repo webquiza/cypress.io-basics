@@ -69,4 +69,18 @@ describe('Ticketbox', () => {
 
     cy.get('.success > p').should('contain', 'Ticket(s) successfully ordered.')
   })
+
+  it('successfully submits the form using a support command', () => {
+    const customer = {
+      firstName: 'Carlos',
+      lastName: 'Urquiza',
+      email: 'carlos@example.com'
+    }
+
+    cy.fillMandatoryFields(customer)
+
+    cy.contains('Confirm Tickets').click()
+
+    cy.get('.success > p').should('contain', 'Ticket(s) successfully ordered.')
+  })
 })
