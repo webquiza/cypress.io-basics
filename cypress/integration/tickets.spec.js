@@ -20,4 +20,14 @@ describe('Ticketbox', () => {
   it('selects the VIP ticket type', () => {
     cy.get('#vip').check()
   })
+
+  it('select Social Media checkbox', () => {
+    cy.get('#social-media').check()
+  })
+
+  it('checks Friend, and Publication, then unchecks Friend ', () => {
+    cy.get('#friend').check()
+    cy.get('#publication').check()
+    cy.get('#friend').uncheck()
+  })
 })
