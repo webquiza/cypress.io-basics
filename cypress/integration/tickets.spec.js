@@ -46,4 +46,27 @@ describe('Ticketbox', () => {
   it('has TICKETBOX heading', () => {
     cy.get('h1').should('contain', 'TICKETBOX')
   })
+
+  it('successfully submits the form', () => {
+    const firstName = 'Carlos'
+    const lastName = 'Urquiza'
+    const fullName = `${firstName} ${lastName}`
+
+    cy.get('#first-name').type(firstName)
+    cy.get('#last-name').type(lastName)
+    cy.get('#email').type('carlos@example.com')
+    cy.get('#ticket-quantity').select("3")
+    cy.get('#vip').check()
+
+    cy.get('.agreement > fieldset')
+      .should('contain', `I, ${fullName}, wish to buy 3 VIP tickets.`)
+
+    cy.get('#friend').check()
+    cy.get('#requests').type('Front row seats only')
+    cy.get('#agree').click()
+    cy.get('#signature').type(fullName)
+    cy.contains('Confirm Tickets').click()
+
+    cy.get('.success > p').should('contain', 'Ticket(s) successfully ordered.')
+  })
 })
