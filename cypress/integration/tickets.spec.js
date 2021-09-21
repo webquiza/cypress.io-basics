@@ -32,7 +32,18 @@ describe('Ticketbox', () => {
   })
 
   it('resets the form after filling the first name', () => {
-    cy.get('#first-name').type('Carlos')
+    const firstName = 'Carlos'
+
+    cy.get('#first-name').type(firstName)
+
+    cy.get('.agreement > fieldset').should('contain', firstName)
+
     cy.get('.reset').click()
+
+    cy.get('.agreement > fieldset').should('not.contain', firstName)
+  })
+
+  it('has TICKETBOX heading', () => {
+    cy.get('h1').should('contain', 'TICKETBOX')
   })
 })
