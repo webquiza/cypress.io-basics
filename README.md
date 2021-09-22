@@ -13,17 +13,24 @@
 ## Setup Requirements
 
 * _**First, ensure you have Git, node and NPM installed on your computer**_
+
 * _Clone this repository._
 * _Open your terminal._
 * _Navigate to the directory (such as your Desktop) where you want the cloned project to reside._
-* _Type `git clone` + URL you copied._
+* _Type `git clone https://github.com/webquiza/cypress.io-basics.git`._
 * _Press Enter._
-* _Navigate to the project folder on your computer._
-* _ _
-* _ _
-* _ _
-* _ _
-* _ _
-* _ _
-* _ _
+* _cd into the `cypress.io-basics` folder._
+* _Open the project in your code editor._
+* _In your terminal, run `$ npm install cypress --save-dev` to download Cypress as a dev dependency._
+* _Run `$ npm cypress open`which will open Cypress in interactice mode for the first time._
+* _Under the INTEGRATION TESTS drop down menu, double click on the `tickets.spec.js` file. This will run the automated tests in interactive mode._
+* _Or, you can run the tests in headless mode. To do run `$ npm test` to see the tests run directly in your terminal._
+
+## Demo
+
+![Cypress Demo](https://media.giphy.com/media/NH2y1kLfM2JFKtp6Lw/giphy.gif)
+
+
+
+
 
