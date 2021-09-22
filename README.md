@@ -1,6 +1,6 @@
 # _Test automation with Cypress_
 
-#### _[Cypress](https://www.cypress.io/) is an open-source test framework that allows writing automated tests in an easy, quick and reliable way, all in JavaScript. This project was created in order to follow along with this [Udemy course](https://www.udemy.com/course/test-automation-with-cypress-basic/), which guides you through the basics of test automation using Cypress._
+#### _[Cypress](https://www.cypress.io/) is an open-source test framework that allows writing automated tests in an easy, quick and reliable way, all in JavaScript. This project was created to follow along with this [Udemy course](https://www.udemy.com/course/test-automation-with-cypress-basic/), which guides you through the basics of test automation using Cypress._
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Setup Requirements
 
-* _**First, ensure you have Git, node and NPM installed on your computer**_
+* _**First, ensure you have Git, node and NPM installed on your computer.**_
 
 * _Clone this repository._
 * _Open your terminal._
@@ -22,9 +22,9 @@
 * _cd into the `cypress.io-basics` folder._
 * _Open the project in your code editor._
 * _In your terminal, run `$ npm install cypress --save-dev` to download Cypress as a dev dependency._
-* _Run `$ npm cypress open`which will open Cypress in interactice mode for the first time._
-* _Under the INTEGRATION TESTS drop down menu, double click on the `tickets.spec.js` file. This will run the automated tests in interactive mode._
-* _Or, you can run the tests in headless mode. To do run `$ npm test` to see the tests run directly in your terminal._
+* _Run `$ npm cypress open` which will open Cypress in interactive mode for the first time._
+* _Under the INTEGRATION TESTS drop down menu, click on the `tickets.spec.js` file. This will run the automated tests in interactive mode._
+* _Or, you can run the tests in headless mode. To do so run, `$ npm test`. This will run the tests directly in your terminal._
 
 ## Demo
 
