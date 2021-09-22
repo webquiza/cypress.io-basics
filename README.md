@@ -1,6 +1,8 @@
 # _Test automation with Cypress_
 
-#### _[Cypress](https://www.cypress.io/) is an open-source test framework that allows writing automated tests in an easy, quick and reliable way, all in JavaScript. This project was created to follow along with this [Udemy course](https://www.udemy.com/course/test-automation-with-cypress-basic/), which guides you through the basics of test automation using Cypress._
+#### By _**Carlos Urquiza**_
+
+#### _[Cypress](https://www.cypress.io/) is an open-source test framework that allows writing automated tests in an easy, quick and reliable way, all in JavaScript. I created this project to follow along with this [Udemy course](https://www.udemy.com/course/test-automation-with-cypress-basic/), which guides you through the basics of test automation using Cypress._
 
 ## Technologies Used
 
