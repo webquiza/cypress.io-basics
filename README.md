@@ -24,7 +24,7 @@
 * _cd into the `cypress.io-basics` folder._
 * _Open the project in your code editor._
 * _In your terminal, run `$ npm install cypress --save-dev` to download Cypress as a dev dependency._
-* _Run `$ npm cypress open` which will open Cypress in interactive mode for the first time._
+* _Run `$ npx cypress open` which will open Cypress in interactive mode for the first time._
 * _Under the INTEGRATION TESTS drop down menu, click on the `tickets.spec.js` file. This will run the automated tests in interactive mode._
 * _Or, you can run the tests in headless mode. To do so run, `$ npm test`. This will run the tests directly in your terminal._
 
